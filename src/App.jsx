@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import About from "./Components/About"
-import Skills from "./Components/Skills"
-import Projects from "./Components/Projects"
-import Experience from "./Components/Experience"
-import Services from "./Components/Services"
-import Contact from "./Components/Contact"
-import Footer from "./Components/Footer"
-import Loader from  "./Components/Loader"
+import Navbar from "./Components/Navbar.jsx";
+import Hero from "./Components/Hero.jsx";
+import About from "./Components/About.jsx"
+import Skills from "./Components/Skills.jsx"
+import Projects from "./Components/Projects.jsx"
+import Experience from "./Components/Experience.jsx"
+import Services from "./Components/Services.jsx"
+import Contact from "./Components/Contact.jsx"
+import Footer from "./Components/Footer.jsx"
+import Loader from  "./Components/Loader.jsx~"
 
 function App() {
   const [loading, setLoading] = useState(true);
