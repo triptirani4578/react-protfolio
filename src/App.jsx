@@ -9,7 +9,7 @@ import Experience from "./Components/Experience.jsx"
 import Services from "./Components/Services.jsx"
 import Contact from "./Components/Contact.jsx"
 import Footer from "./Components/Footer.jsx"
-import Loader from  "./Components/Loader.jsx~"
+import Loader from  "./Components/Loader.jsx"
 
 function App() {
   const [loading, setLoading] = useState(true);
